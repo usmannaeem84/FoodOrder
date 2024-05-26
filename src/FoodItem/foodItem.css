@@ -61,7 +61,7 @@
 @media (max-width:768px) {
 
     .foodItem{
-        width: 92%;
+        width: 100%;
         padding-bottom: 6px;
     }
     .foodImg img{
@@ -72,7 +72,10 @@
         margin: 10px 0px;
     }
     .price{
-        font-size: 22px;
+        font-size: 21px;
         color: tomato;
+    }
+    .fNameRate p{
+        font-size: 23px;
     }
 }
