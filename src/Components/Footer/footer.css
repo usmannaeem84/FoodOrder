@@ -1,0 +1,92 @@
+.footer {
+    color: white;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding: 35px 0px;
+    flex-direction: column;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    width: 80%;
+}
+
+.left {
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.left p {
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right {
+    
+    width: 50%;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info p {
+    font-size: 18px;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+
+.comp h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.getTouch h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.footer hr {
+    width: 80%; 
+    border: none;
+    height: 2px; 
+    background-color: gray; 
+    margin: 20px 0px;   
+}
+
+
+@media (max-width:768px) {
+
+.footer{
+    
+    
+}
+.fcontainer{
+flex-direction: column;
+}
+.left{
+    width: 95%;
+    margin: 30px 0px;
+}
+.left p{
+    font-size: 19px;
+}
+.right{
+    flex-direction: column;
+}
+.right{
+    gap: 25px;
+}
+
+}

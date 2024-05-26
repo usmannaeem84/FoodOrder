@@ -1,0 +1,49 @@
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    padding: 12px 0px;
+}
+
+.download h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.DownImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0px;
+    gap: 20px;
+}
+
+.DownImg img {
+    width: 220px;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .download h1 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .download {
+        margin-bottom: 5px;
+        gap: 0px;
+    }
+
+    .DownImg img {
+        width: 120px;
+        cursor: pointer;
+    }
+
+    .DownImg {
+        margin: 10px 0px;
+    }
+}

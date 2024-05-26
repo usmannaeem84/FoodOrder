@@ -1,0 +1,76 @@
+.placeOrderCont {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+    padding: 40px 0px;
+}
+
+.PlaceOrder {
+    margin: 50px 0px;
+}
+
+.UserInfoInputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.UserInfoInputs h1 {
+    margin-bottom: 20px;
+}
+
+.UserInfoInputs input {
+    padding: 10px 12px;
+    font-size: 20px;
+    margin: 8px 0px;
+    border: 1.5px solid #5f5c5c;
+    border-radius: 4px;
+    color: #5f5c5c;
+    outline: none;
+}
+
+.mulltiInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+}
+
+@media (max-width:768px) {
+
+    .placeOrderCont {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding: 40px 0px;
+    }
+
+    .UserInfoInputs {
+        width: 90%;
+    }
+
+    .mulltiInfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .UserInfoInputs input {
+        padding: 8px 10px;
+        font-size: 18px;
+        margin: 8px 0px;
+        border: 1.5px solid #5f5c5c;
+        border-radius: 4px;
+        color: #5f5c5c;
+        outline: none;
+    }
+
+    .mulltiInfo input {
+        width: 50%;
+    }
+}

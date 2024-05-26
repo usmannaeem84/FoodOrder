@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    margin: 30px auto;
+    height: 34vw;
+    background: url("/header_img.png") no-repeat;
+    background-size: contain;
+    width: 80%;
+    background-position: center;
+    position: relative;
+  }
+  
+.headerTitle{
+  max-width: 53%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+  bottom: 10%;
+  left: 6vw;
+  animation: fadeIn 3s;
+}
+.headerTitle h1{
+    font-size:max(4.5vw,22px) ;
+    color: white;
+    font-weight: 500;
+}
+.headerTitle p{
+   font-size: 20px;
+   color: white;
+}
+.headerTitle button{
+  padding: 18px 24px;
+  border: 0;
+  background-color: #fff;
+  width: fit-content;
+  border-radius: 40px;
+  font-size: 20px;
+    
+}
+
+@keyframes fadeIn{
+
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+@media (max-width:768px) {
+  
+.header{
+height: 40vw;
+width:88%;
+}
+
+.headerTitle button{
+  padding: 6px 10px;
+  font-size: 14px;
+}
+.headerTitle{
+  max-width: 75%;
+ 
+}
+.headerTitle p{
+  display: none;
+}
+.headerTitle h1{
+font-size: 26px;
+margin-bottom: 8px;
+}
+}
